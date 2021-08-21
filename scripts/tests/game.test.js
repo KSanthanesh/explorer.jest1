@@ -68,4 +68,7 @@ describe("gameplay works correctly", () => {
         addTurn();
         expect(game.currentGame.length).toBe(2);
     })
+    test("should add correct class to light up the buttons", () => {
+        
+    })
 })
